@@ -1,0 +1,65 @@
+@import '../variable';
+@import '../mixin';
+
+.blog {
+    .blog-container {
+        .blog-content {
+            width: 768px;
+            margin: 0 auto;
+            h1 {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 1px;
+            }
+            h2 {
+                margin-bottom: 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            .input {
+                margin-bottom: 65px;
+                    width: 768px;
+                    height: 40px;
+                    border-radius: 6px;
+                    background: #F7FAFC;
+                input {
+                    width: 708px;
+                    height: 40px;
+                    outline: none;
+                    border: none;
+                    background: #F7FAFC;
+                }
+                img {
+                    margin: 11.64px 0 0 17.67px;
+                }
+            }
+            ul {
+                margin-bottom: 49px;
+                li {
+                    h1 {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 19.2px;
+                        letter-spacing: 0.8px;
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 21px;
+                            color: $underTextColor;
+                            margin-bottom: 13px;
+                        }
+                    }
+                    h2 {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+    }
+}

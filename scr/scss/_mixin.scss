@@ -1,0 +1,19 @@
+@mixin flex($width: 0, $range: '') {
+	align-items: center;
+	display: flex;
+	gap: $width;
+	justify-content: $range;
+}
+
+@mixin flexColumn($width) {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: $width;
+}
+
+@mixin wh($width: '', $height: '') {
+	width: $width;
+	height: $height;
+}

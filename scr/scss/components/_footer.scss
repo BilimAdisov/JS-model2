@@ -1,0 +1,41 @@
+@import '../variable';
+@import '../mixin';
+
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.footer {
+    &-container {
+        .THE-END {
+            max-width: 768px;
+            margin: 0 auto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            span {
+                color: $linkTextColor;
+            }
+        }
+        .footer-nav {
+            margin: 0 auto;
+            max-width: 768px;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                margin-bottom: 24px;
+
+                li {
+                   a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                    color: $underTextColor;
+                   }
+                }
+            }
+        }
+    }
+}

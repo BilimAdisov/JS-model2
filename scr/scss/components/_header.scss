@@ -1,0 +1,32 @@
+@import '../variable';
+@import '../mixin';
+
+.header {
+    max-width: 1440px;
+		width: 100%;
+		margin: 0 auto;
+    &-container {
+
+        .header-nav {
+            margin: 0 auto;
+            width: 768px;
+           display: flex;
+           justify-content: space-between;
+           font-size: 16px;
+           font-weight: 600;
+           line-height: 19.2px;
+           letter-spacing: 0.8px;
+           margin-top: 20px;
+           margin-bottom: 66px;
+           a {
+            color: $mainTextColor;
+           }
+            .header-list {
+                display: flex;
+                justify-content: flex-end;
+                gap: 32px;
+            }
+        }
+
+    }
+}

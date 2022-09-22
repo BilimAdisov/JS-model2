@@ -1,0 +1,29 @@
+@import '../variable';
+@import '../mixin';
+
+
+.colophon {
+    max-width: 768px;
+    margin: 0 auto;
+    .colophon-container {
+        margin-top: 64px;
+        margin-bottom: 395px;
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 1px;
+        }
+        ul {
+            li {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                margin-top: 12px;
+                a {
+                    color: $linkTextColor;
+                }
+            }
+        }
+    }
+}

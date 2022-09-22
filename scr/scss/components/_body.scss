@@ -1,0 +1,152 @@
+@import '../variable';
+@import '../mixin';
+
+
+.body {
+    display: flex;
+    justify-content: center;  
+    &-container {
+        .body-nav {
+            .body-text {
+                margin-top: 64px; 
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 1px;
+            }
+            .first-con {
+                width: 768px;
+                height: 140px;
+                margin-bottom: 24px;
+              background: $mainBackgroundColor;
+              border-radius: 6px;
+              padding: 16px;
+              display: flex;
+              justify-content: space-between;
+              h1 {
+                display: flex;
+                gap: 300px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19.2px;
+                letter-spacing: 0.8px;
+                a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 21px;
+                }
+              }
+              h2 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                color: $underTextColor;
+              }
+              p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+              }
+            }
+            .second-con {
+                width: 768px;
+                height: 140px;
+              background: $mainBackgroundColor;
+              border-radius: 6px;
+              padding: 16px;
+              display: flex;
+              justify-content: space-between;
+              h1 {
+                    display: flex;
+                    gap: 179px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 19.2px;
+                    letter-spacing: 0.8px;
+                   a {
+                     font-size: 14px;
+                     font-weight: 400;
+                     line-height: 21px;
+                   }
+              }
+              p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+              }
+              //text-2
+            }
+            .body-info-item {
+                margin-bottom: 64px;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                .body-info {
+                    width: 768px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h1 {
+                        margin-top: 64px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 1px;
+                        margin-bottom: 8px;
+                    }
+                    h2 {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 19.2px;
+                        letter-spacing: 0.8px;
+                        span {
+                               font-size: 14px;
+                               font-weight: 400;
+                               line-height: 21px;
+                               color: $underTextColor;
+                        }
+                    }
+                    h3 {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $underTextColor;
+                    }
+                }
+            }
+            .body-content {
+                .body-content-container {
+                    .body-content-list {
+                            ul {
+                                max-width: 768px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                align-items: center;
+                                gap: 48px;
+                                li {
+                                    margin-bottom: 64px;
+                                    a {
+                                        h1 {
+                                            font-size: 16px;
+                                            font-weight: 600;
+                                            line-height: 19.2px;
+                                            letter-spacing: 0.8px;  
+                                            color: $mainTextColor;
+                                        }
+                                        h2 {
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            line-height: 21px;
+                                            color: $underTextColor;
+                                        }
+                                    }
+                                }
+                            }
+                    }
+                }
+            }
+        }
+    }
+}

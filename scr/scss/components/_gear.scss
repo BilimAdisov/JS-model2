@@ -1,0 +1,150 @@
+@import '../variable';
+@import '../mixin';
+
+.gear {
+    .gear-container {
+        .gear-texts {
+            max-width: 768px;
+            margin: 0 auto;
+            .gear-text {
+                h1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 1px;
+                    h2 {
+                        margin-bottom: 64px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        a {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+        .gear-content {
+            .gear-list {
+                width: 768px;
+                margin: 0 auto;
+                margin-top: 64px;
+                h1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 1px;
+                    margin-bottom: 50px;
+                }
+                ul {
+                    li {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 30px;
+                        margin-bottom: 50px;
+                        a {
+                            display: flex;
+                            gap: 24px;
+                            h2 {
+                                display: flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 19.2px;
+                                letter-spacing: 0.8px;
+                                color: $mainTextColor;
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 21px;
+                                    color: $underTextColor; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .gear-Secondlist {
+                width: 768px;
+                margin: 0 auto;
+                margin-top: 64px;
+                h1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 1px;
+                    margin-bottom: 50px;
+                }
+                ul {
+                    li {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 30px;
+                        margin-bottom: 50px;
+                        a {
+                            display: flex;
+                            gap: 24px;
+                            h2 {
+                                display: flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 19.2px;
+                                letter-spacing: 0.8px;
+                                color: $mainTextColor;
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 21px;
+                                    color: $underTextColor; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .gear-thirdlist {
+                width: 768px;
+                margin: 0 auto;
+                margin-top: 64px;
+                h1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 1px;
+                    margin-bottom: 50px;
+                }
+                ul {
+                    li {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 30px;
+                        margin-bottom: 50px;
+                        a {
+                            display: flex;
+                            gap: 24px;
+                            h2 {
+                                display: flex;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 19.2px;
+                                letter-spacing: 0.8px;
+                                color: $mainTextColor;
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 21px;
+                                    color: $underTextColor; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

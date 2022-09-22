@@ -1,0 +1,43 @@
+@import '../variable';
+@import '../mixin';
+
+
+.talks {
+    width: 768px;
+    margin: 0 auto;
+    .talks-container {
+        .talks-content {
+            h1 {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 1px;
+                margin: 64px 0 12px 0;
+            }
+            h3 {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                color: $underTextColor;
+                margin-bottom: 64px;
+            }
+            ul {
+                li {
+                    margin-bottom: 64px;
+                    h2 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 19.2px;
+                        letter-spacing: 0.8px;
+                    }
+                    p {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21px;
+                        color: $underTextColor;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import './normalize';
+@import './components/header';
+@import './/components/subtitle';
+@import './components/body';
+@import './components/footer';
+@import './components/Uses';
+@import './components/gear';
+@import './components/blog';
+@import './components/colophone';
+@import './components/bookmarks';
+@import './components/books';
+@import './components/talks';
+@import './components/newsletter';
+
+#app {
+	min-height: 100vh;
+	max-width: 1440px;
+}
+
